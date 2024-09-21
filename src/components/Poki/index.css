@@ -1,0 +1,37 @@
+.poki-card{
+    list-style-type: none;
+    height: 200px;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.poki-container{
+    background-color: rgba(211, 211, 211, 0.632);
+    height: 200px;
+    width: 150px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.image-card{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.poki-image{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.poki-heading{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.main-heading{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 15px;
+}
+
+.search-bar{
+    background-color: rgba(211, 211, 211, 0.632);
+    border: 0px;
+    border-radius: 25px;
+    height:45px ;
+    width: 50%;
+    margin: 15px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.poki-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-self: flex-end;
+}
+
+.next-button{
+    background-color: rgba(211, 211, 211, 0.632);
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0px;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    margin-left: 55px;
+}
+
+.prev-button{
+    background-color: transparent;
+    color: rgba(211, 211, 211, 0.632);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px rgba(211, 211, 211, 0.632) solid;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.prev-button:hover{
+    background-color: rgba(211, 211, 211, 0.632);
+    color: black;
+    border: 0px;
+}
+
+.next-button:hover{
+    background-color: black;
+    color: rgba(211, 211, 211, 0.632);
+    border: 2px rgba(211, 211, 211, 0.632) solid;
+}
